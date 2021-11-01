@@ -1,8 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+
 }
 
  /* * {
@@ -15,15 +17,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 220px 120px 220px;
+    padding: 15px 40px 200px 40px;
+    gap: 3rem;
+    padding-bottom: 80px;
+    
+    
 }
+
+
+
 
 .links ul {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     list-style-type: none;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .headerlogo {
@@ -33,22 +42,20 @@ body {
 }
 
 
-/* this section styles the description */
+/* this section styles the hero section */
 
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px 100px 30px;
+    padding-bottom: 120px;
+
+}
 .logoodin {
     width: 500px;
     height: 300px;
-}
-
-
-
-.description {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 220px 120px 220px;
-    
 }
 
 
@@ -75,7 +82,8 @@ button {
     color: white;
     border-radius: 0.3em;
     border-style: none;
-    padding: 3px 15px;
+    padding: 12px 45px;
+    font-size: 20px;
 }
 
 /* this section styles the section with images */
@@ -86,6 +94,12 @@ button {
 
 .title {
     text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .container {
@@ -115,11 +129,7 @@ button {
     align-items: center;
 }
 
-h3 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-}
+
 
 /* this section styles the quote */
 
