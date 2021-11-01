@@ -4,66 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 <body>
     <div class="header">
+        <div class="headerlogo">Header Logo</div>
         <div class="links">
-            <div class="logo">Header Logo</div>
             <ul>
                 <li>header link one</li>
                 <li>header link two</li>
                 <li>header link three</li>
             </ul>
         </div>
+    </div>
+
+    <div class="description">
+        
+        <div class="info">
+            <h2>This website is awesome</h2>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button>Sign up</button>
+        </div>
+        <div>
+            <img class="logoodin" src="images/logo.png" alt="the odin project logo">
+        </div>
         
     </div>
 
     <div class="body">
-        <div class="description"></div>
-            <div class="info">
-                <h2>This website is awesome</h2>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
-            </div>
-            <div class="img">
-                <img src="images/logo.png" alt="the odin project logo">
-            </div>
-        <div class="illustrations">
-
+        
+        <div class="illustrations"> 
+            
             <div class="title">
                 <h3>Some random information.</h3>
             </div>
-            <div class="item1">
-                <img src="images/barberry.png" alt="picture of barberry flower">
-                <p>this is some subtext under the illustration or image</p>
+
+           <div class="container">
+            <div class="item">
+                <img class="flowerimg" src="images/barberry.png" alt="picture of barberry flower">
+                <p class="imgdescription">this is some subtext under the illustration or image</p>
             </div>
-            <div class="item2">
-                <img src="images/chilli.png" alt="picture of chilli">
-                <p>this is some subtext under the illustration or image</p>
+            <div class="item">
+                <img class="flowerimg" src="images/chilli.png" alt="picture of chilli">
+                <p class="imgdescription">this is some subtext under the illustration or image</p>
             </div>
-            <div class="item3">
-                <img src="images/pepper.png" alt="picturem of pepper">
-                <p>this is some subtext under the illustration or image</p>
+            <div class="item">
+                <img class="flowerimg" src="images/pepper.png" alt="picturem of pepper">
+                <p class="imgdescription">this is some subtext under the illustration or image</p>
             </div>
-            <div class="item4">
-                <img src="images/saffron.png" alt="picture of the saffron flower">
-                <p>this is some subtext under the illustration or image</p>
-            </div>   
+            <div class="item">
+                <img class="flowerimg" src="images/saffron.png" alt="picture of the saffron flower">
+                <p class="imgdescription">this is some subtext under the illustration or image</p>
+            </div>
+           </div>    
         </div>
 
-        <div class="quote"></div>
+        <div class="quote">
+            
+            <article>“If we allow our thoughts to arise and dissolve by themselves,
+                they will pass through our mind as a bird flies through the sky,
+                without leaving a trace.”
+                <br>
+                <br>
+                <b style="float: right;">- Dilgo Khyentse Rinpoche</b>
+            </article>
+            
+        </div>
         
 
         <div class="cta">
-            <h4>Call to action! It's time!</h4>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+            <div class=container-cta>
+                <div class="left-elements">
+                    <h4>Call to action! It's time!</h4>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div>
+                   <button>Sign up</button>
+                </div>
+            </div>    
         </div>
 
     </div>
 
     <div class="footer">Copyright © The Odin project 2021</div>
+
  
 </body>
 </html>
